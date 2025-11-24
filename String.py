@@ -47,3 +47,11 @@ nombre = 'Gustavo'
 apellido = 'Quispe'
 base = 'El mensaje es: Hola {nombre} {apellido}'
 print(base.format(nombre = nombre, apellido = apellido))
+
+#Busqueda dentro de la cadena
+#in
+mensaje = 'Hola mundo, bienvenidos al mundo de Python'
+print('Hola' in mensaje)
+
+#count
+print(mensaje.count('mundo'))
