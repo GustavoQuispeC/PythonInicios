@@ -55,3 +55,23 @@ print('Hola' in mensaje)
 
 #count
 print(mensaje.count('mundo'))
+
+#startswith
+print(mensaje.startswith('Hola'))
+#endswith
+print(mensaje.endswith('Python'))
+
+#strip
+mensaje2 = '   Hola mundo   '
+print(mensaje2.strip())
+
+#find
+print(mensaje.find('m'))
+
+#isNumeric
+num1 = '12345'
+print(num1.isnumeric())
+
+#capitalize
+mensaje3 = 'hola mundo'
+print(mensaje3.capitalize())
