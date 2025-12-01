@@ -58,3 +58,10 @@ for clave, valor in nombres.items():
 cosas = ['Mesa', 'Silla', 'Computadora']
 for cosa in cosas:
     print(cosa)
+
+#Range
+for number in range(10):
+    print(number)
+
+for number in range(5,16):
+    print(number)
