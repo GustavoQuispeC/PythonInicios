@@ -59,6 +59,7 @@ cosas = ['Mesa', 'Silla', 'Computadora']
 for cosa in cosas:
     print(cosa)
 
+
 #Range
 for number in range(10):
     print(number)
